@@ -1,7 +1,7 @@
 {
   "name": "mojito-dot",
   "description": "An addon view engine for mojito based on doT templates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jesse Foltz <jessefoltz@jessefoltz.com>",
   "yahoo": {
     "mojito": {
@@ -13,7 +13,27 @@
     "node": "> 0.8",
     "npm": "> 1.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "mojito": "*"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "23f1f7388828eb57ffcda49f78d0771ded4fab2f",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soljin/mojito-dot.git"
+  },
+  "keywords": [
+    "mojito",
+    "view-engine",
+    "doT",
+    "template"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soljin/mojito-dot/issues"
   }
 }

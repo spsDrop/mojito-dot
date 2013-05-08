@@ -11,7 +11,7 @@ YUI.add('mojito-doT', function(Y, NAME) {
     'use strict';
 
     var doT = Y.doT,
-        cache = Y.namespace('Env.Mojito.Handlebars');
+        cache = Y.namespace('Env.Mojito.doT');
 
     /**
      * doT Adapter for the client runtime.

@@ -14,7 +14,7 @@ YUI.add('mojito-doT', function (Y, NAME) {
 
     var fs = require('fs'),
         doT = Y.doT,
-        cache = YUI.namespace('Env.Mojito.Handlebars');
+        cache = YUI.namespace('Env.Mojito.doT');
 
     /**
      * doT Adapter for the server runtime.
