@@ -1,0 +1,19 @@
+{
+  "name": "mojito-dot",
+  "description": "An addon view engine for mojito based on doT templates",
+  "version": "0.0.1",
+  "author": "Jesse Foltz <jessefoltz@jessefoltz.com>",
+  "yahoo": {
+    "mojito": {
+      "type": "bundle",
+      "version": "*"
+    }
+  },
+  "engines": {
+    "node": "> 0.8",
+    "npm": "> 1.0"
+  },
+  "dependencies": {
+    "mojito": "*"
+  }
+}
