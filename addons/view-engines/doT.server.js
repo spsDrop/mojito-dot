@@ -50,6 +50,7 @@ YUI.add('mojito-doT', function (Y, NAME) {
                     }
 
                     try{
+                        data.helpers = Y.merge(data.helpers, instance.helpers);
                         template = doT.compile(obj.raw, obj.partials);
                         output = template(data);
                     }catch(e){
